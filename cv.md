@@ -19,7 +19,12 @@
 
 # 5. Code examples
 
-- I added Tampermonkey script with 2 simple hotkeys on GitHub https://github.com/TalanVladimir/github
+- I created Tampermonkey script with 2 hotkeys on GitHub https://github.com/TalanVladimir/github
+  function loadHotkeys() {
+  hotkeys = new Map();
+  hotkeys.set("r", loadMyRepositories);
+  hotkeys.set("p", loadCurrentProject);
+  }
 
 # 6. Experience
 
